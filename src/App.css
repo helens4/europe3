@@ -1,0 +1,59 @@
+body {
+  background-color: #cc8f25;
+  font-family: Arial, sans-serif;
+}
+
+h1 {
+  text-align: center;
+  color: white;
+}
+
+.post-list {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.post-component {
+  list-style-type: none;
+}
+
+.post-component button {
+  width: 400px;
+  cursor: pointer;
+  padding: 10px;
+  background-color: #ddd;
+}
+
+.post-component p {
+  color: orangered;
+  font-style: bold;
+  font-size: 18px;
+}
+
+img {
+  width: 100%;
+}
+
+p {
+  text-align: start;
+}
+
+.app-content {
+  display: flex;
+  gap: 10px;
+}
+
+.selected-item {
+  width: 600px;
+}
+
+.selected-item p {
+  font-size: 30px;
+  font-weight: bold;
+  color: rgb(234, 233, 233);
+}
+
+ul {
+  margin: 0;
+}
